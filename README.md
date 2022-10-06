@@ -12,4 +12,4 @@ Personal portfolio website - Final Version
 
 - JavaScript
 
-## :rocket: <a href="https://wander-xiv.github.io/Portfolio-Site/">Live Demo</a> 
+## :rocket: <a href="https://wander-xiv.github.io/Portfolio/">Live Demo</a> 
