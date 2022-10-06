@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1em;
+  color: rgb(255, 255, 255)
+}
+
+html {
+  scroll-behavior: smooth;
+  background: url("/img/portfolioBackgroundv3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-style: italic;
+}
+
+.navbar {
+  display:flex;
+  padding: 2% 6%;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: #708090;
+  width: 100%;
+}
+
+
+.nav-links {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display:inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(0, 255, 200);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+section.welcome {
+  padding: 30px;
+}
+
+div.text-box-welcome {
+  margin:0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.text-box-welcome h1 {
+  padding: 100px 0px;
+}
+
+.text-box-welcome h2 {
+  padding: 50px 0px 10px 0px;
+}
+
+.text-box-welcome p {
+  margin: 10px 0 40px;
+  line-height: 2rem;
+  text-align: justify;
+  padding: 50px 0px 150px 0px;
+}
+
+.profile_photo {
+  max-width:400px;
+  width: auto;
+  height: auto;
+  border-radius: 20%;
+}
+
+.curriculum {
+  width: 350px;
+  margin-top: 350px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 24px 36px;
+  font-size: 30px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.curriculum:hover {
+  border: 5px solid white;
+  box-shadow: black 10px 10px 10px;
+}
+
+.index-button {
+  width: 350px;
+  margin-top: 150px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 24px 36px;
+  font-size: 30px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.index-button:hover {
+  border: 5px solid white;
+  box-shadow: black 10px 10px 10px;
+}
+
+
+
+div.text-box-webdevelopment {
+  margin:0 auto;
+  width:50%;
+  text-align: center;
+}
+
+.text-box-webdevelopment h2 {
+  padding: 100px 0px 0px 0px;
+}
+
+.text-box-webdevelopment p {
+  margin: 10px 0 40px;
+  padding: 100px 30px;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+div.text-box-codingskills {
+  margin:0 auto;
+  width: 50%;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box-codingskills h1 {
+  padding: 100px 0px;
+}
+
+.text-box-codingskills p {
+  margin: 10px 0 40px;
+  line-height: 2rem;
+  text-align: left;
+  padding: 100px 0px;
+}
+
+div.text-box-projects {
+  margin:0 auto;
+  width: 50%;
+  text-align: justify;
+  padding: 10px 0px;
+}
+
+.text-box-projects h2 {
+  padding: 50px 0px;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.text-box-projects p {
+  margin: 10px 0 40px;
+  line-height: 2rem;
+  padding: 100px 30px;
+}
+
+.github {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:baseline;
+  align-items: center;
+}
+
+.github-projects {
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  flex: 1 1 500px;
+  text-align: center;
+  min-height: 300px;
+  min-width: 300px;
+  filter: grayscale(1) blur(3px);
+  --fa-beat-fade-scale: 1;
+  --fa-beat-fade-opacity: 1;
+  border: solid black 1px;
+  background-color: #505a61;
+}
+
+span.projects-header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+img {
+  width: 100%;
+}
+
+.github-projects:hover {
+  transition: all 0.5s;
+  filter: grayscale(0);
+  --fa-beat-fade-scale: 0.7;
+  --fa-beat-fade-opacity: 0.7;
+  box-shadow: black 10px 10px 10px;
+}
+
+.github-projects p {
+  text-align: justify;
+  padding: 20px 20px;
+  min-height: 200px;
+}
+
+.github-projects i {
+  color: black;
+  font-size: 2em;
+  margin-left: 10px ;
+  padding: 10px 0px;
+}
+
+.header-icon {
+  margin: 0px 10px;
+}
+
+section.contact {
+  padding: 30px;
+}
+
+div.text-box-contact {
+  margin:0 auto;
+  text-align: center;
+  min-height: 250px;
+}
+
+.text-box-contact h1 {
+  padding: 100px 0px;
+}
+
+.text-box-contact p {
+  padding: 50px 0px;
+  margin: 80px;
+  font-size: 1.5em;
+}
+
+.mail-contact-button {
+  width: 150px;
+  padding: 100px 0px;
+  margin-top: 10px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 24px 36px;
+  font-size: 30px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.mail-contact-button:hover {
+  border: 5px solid white;
+  box-shadow: black 10px 10px 10px;
+}
+
+.contact-icons {
+  margin-top: 100px;
+  font-size: 3em;
+  letter-spacing: 15px;
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  color: white;
+  font-size: 12px;
+  background-color: #192733;
+  border-radius: 10px;
+  padding: 10px 15px 10px 15px;
+}
+
+.tooltip::before {
+  content: "";
+  position: absolute;
+  transform: rotate(45deg);
+  background-color: #192733;
+  padding: 5px;
+  z-index: 1;
+}
+
+.icon:hover .tooltip {
+  visibility: visible;
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+#bottom {
+  top: 50px;
+  left: -55%;
+}
+
+#bottom::before {
+  top: -5%;
+  left: 25%;
+}
+
+.fa-solid.fa-at:hover {  
+  transform: rotate(360deg);
+  transition: transform 0.7s ease-in-out 0s;
+}
+
+.fa-brands.fa-square-github:hover, .fa-brands.fa-github:hover {
+  transform: scale(1.5);
+  transition: transform 0.5s ease-in-out 0s;
+}
+
+#topButton {
+  display: flex; 
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+  background-color: rgb(0, 0, 0); 
+  color: white; 
+  cursor: pointer; 
+  padding: 10px; 
+  border-radius: 10px; 
+  font-size: 20px; 
+}
+
+#topButton:hover {
+  background-color: rgb(0, 119, 255);
+}
+
+@media only screen and (max-width: 400px) {
+  div.text-box-projects, div.text-box-welcome, div.text-box-codingskills, div.text-box-webdevelopment, div.text-box-contact {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profile_photo {
+  width: 100%;
+  }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
