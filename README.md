@@ -4,8 +4,7 @@
   <h1 align="center">Developer Portfolio ✨</h1>
 
   <p align="center">
-    It is a personal static website hosted with GitHub Pages, built to showcase my recent projects. 
-    ## :rocket: <a href="https://wander-xiv.github.io/Portfolio/">Live Demo</a> 
+    It is a personal static website hosted with GitHub Pages, built to showcase my recent projects.
     <br />
     <br />
   </p>
@@ -37,3 +36,5 @@
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
+
+## :rocket: <a href="https://wander-xiv.github.io/Portfolio/">Live Demo</a> 
