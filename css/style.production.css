@@ -10,25 +10,28 @@
   
   html {
     scroll-behavior: smooth;
-    /* background-image: linear-gradient(120deg, #000000 0%, #00afce 100%); */
-    background: url("/img/portfolioBackgroundv3.jpg") no-repeat center center fixed;
+    /* background-image: linear-gradient(120deg, #ffffff 0%, #ffffff 100%); */
+    /* background: url("../img/portfolioBackgroundv3.jpg") no-repeat center center fixed; */
     background-size: cover;
   }
   
   h1 {
-    font-size: 4em;
+    font-size: 3em;
+    color: rgb(255, 255, 255)
   }
   
   h2 {
-    font-size: 3em;
+    font-size: 2em;
+    color: rgb(255, 255, 255)
   }
   
   h3 {
     font-size: 2em;
+    color: rgb(255, 255, 255)
   }
   
   p {
-    font-style: italic;
+    font-style: normal;
   }
   
   .navbar {
@@ -86,6 +89,7 @@
   
   section.welcome {
     padding: 30px;
+    background: url("../img/portfolioBackgroundv4.jpg") no-repeat center center fixed;
   }
   
   div.text-box-welcome {
@@ -107,6 +111,7 @@
     line-height: 2rem;
     text-align: justify;
     padding: 50px 0px 150px 0px;
+    color: rgb(255, 255, 255);
   }
   
   .profile_photo {
@@ -121,7 +126,7 @@
     margin-top: 350px;
     text-decoration: none;
     text-align: center;
-    border: 1px solid #fff;
+    border: 1px solid rgb(0, 0, 0);
     padding: 24px 36px;
     font-size: 30px;
     background: transparent;
@@ -132,7 +137,7 @@
   }
   
   .curriculum:hover {
-    border: 5px solid white;
+    border: 5px solid rgb(0, 0, 0);
     -webkit-box-shadow: black 10px 10px 10px;
             box-shadow: black 10px 10px 10px;
   }
@@ -142,7 +147,7 @@
     margin-top: 250px;
     text-decoration: none;
     text-align: center;
-    border: 1px solid #fff;
+    border: 1px solid rgb(255, 255, 255);
     padding: 24px 36px;
     font-size: 30px;
     background: transparent;
@@ -153,12 +158,10 @@
   }
   
   .index-button:hover {
-    border: 5px solid white;
+    border: 5px solid rgb(0, 110, 255);
     -webkit-box-shadow: black 10px 10px 10px;
             box-shadow: black 10px 10px 10px;
   }
-  
-  
   
   div.text-box-webdevelopment {
     margin:0 auto;
@@ -171,6 +174,7 @@
   }
   
   .text-box-webdevelopment p {
+    color: rgb(0, 0, 0);
     margin: 10px 0 40px;
     padding: 100px 30px;
     line-height: 2rem;
@@ -178,48 +182,46 @@
   }
   
   div.text-box-codingskills {
+    color: rgb(0, 0, 0);
     margin:0 auto;
     width: 50%;
     padding-bottom: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .text-box-codingskills h1 {
+    color: rgb(0, 0, 0);
     padding: 100px 0px;
   }
   
   .coding-icons img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 30px;
-    text-align: center;
-    padding: 10px 0px;
-    -webkit-box-shadow: black 10px 10px 10px;
-            box-shadow: black 10px 10px 10px;
-            border: solid black 1px;
-    background-color: #ffffff;
+    width: 75px;
+      height: 75px;
+      margin-bottom: 30px;
+      text-align: center;
+      padding: 10px 0px;
+      -webkit-filter: grayscale(0);
+              filter: grayscale(0);
+      -webkit-box-shadow: black 10px 10px 10px;
+              box-shadow: black 10px 10px 10px;
+              border: solid black 1px;
+      background-color: #ffffff;
   }
   
   div.text-box-projects {
+    background: rgb(76, 85, 92);
+    border: solid black 1px;
     margin:0 auto;
     width: 50%;
-    text-align: justify;
+    text-align: center;
     padding: 10px 0px;
   }
   
   .text-box-projects h2 {
+    color: rgb(255, 255, 255);
     padding: 50px 0px;
     text-align: center;
     padding: 100px 0px;
@@ -229,6 +231,20 @@
     margin: 10px 0 40px;
     line-height: 2rem;
     padding: 100px 30px;
+  }
+
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack:baseline;
+        -ms-flex-pack:baseline;
+            justify-content:baseline;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   
   .github {
@@ -289,13 +305,14 @@
   }
   
   .github-projects p {
+    color: rgb(255, 255, 255);
     text-align: justify;
     padding: 20px 20px;
     min-height: 200px;
   }
   
   .github-projects i {
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 2em;
     margin-left: 10px ;
     padding: 10px 0px;
@@ -307,6 +324,7 @@
   
   section.contact {
     padding: 30px;
+    background: url("../img/portfolioBackgroundv4.jpg") no-repeat center center fixed;
   }
   
   div.text-box-contact {
@@ -326,11 +344,12 @@
   }
   
   .mail-contact-button {
+    color: rgb(255, 255, 255);
     width: 150px;
     padding: 100px 0px;
-    margin-top: 10px;
+    margin-top: 100px;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid rgb(255, 255, 255);
     padding: 24px 36px;
     font-size: 30px;
     background: transparent;
@@ -341,12 +360,13 @@
   }
   
   .mail-contact-button:hover {
-    border: 5px solid white;
+    border: 5px solid rgb(0, 119, 255);
     -webkit-box-shadow: black 10px 10px 10px;
             box-shadow: black 10px 10px 10px;
   }
   
   .contact-icons {
+    color: rgb(255, 255, 255);
     margin-top: 100px;
     font-size: 3em;
     letter-spacing: 15px;
@@ -428,7 +448,7 @@
     z-index: 99; 
     border: none; 
     outline: none; 
-    background-color: rgb(0, 0, 0); 
+    background-color: rgb(49, 46, 46); 
     color: white; 
     cursor: pointer; 
     padding: 10px; 
@@ -467,4 +487,36 @@
         -ms-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
+  }
+
+  body {
+    background: linear-gradient( #364147);
+    background-size: 400% 400%;
+    -webkit-animation: gradient 15s ease infinite;
+            animation: gradient 15s ease infinite;
+    height: 100vh;
+  }
+  
+  @-webkit-keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
