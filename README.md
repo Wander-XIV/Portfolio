@@ -1,7 +1,3 @@
-<p align="center">
-  <h3 align="center">Heya 👋, I'm Andrew</h3>
-</p>
-
 ## About Me:
 
 - 👋 Hi, I’m Andrew
