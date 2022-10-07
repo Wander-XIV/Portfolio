@@ -1,3 +1,15 @@
+<div align="center"> 
+<h3 align="center">Reach Out</h3>
+  <div id="header" align="center">
+  <img src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966" width="200"/>
+</div>
+
+<div id="badges" align="center">
+  <a href="https://www.linkedin.com/in/andrew-j-487292196">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+</div>
+
 ## About Me:
 
 - 👋 Hi, I’m Andrew
@@ -16,14 +28,3 @@
 </div>
 
 ## :rocket: <a href="https://wander-xiv.github.io/Portfolio/">Live Demo</a> 
-<div align="center"> 
-<h3 align="center">Reach Out</h3>
-  <div id="header" align="center">
-  <img src="https://camo.githubusercontent.com/5ddf73ad3a205111cf8c686f687fc216c2946a75005718c8da5b837ad9de78c9/68747470733a2f2f7468756d62732e6766796361742e636f6d2f4576696c4e657874446576696c666973682d736d616c6c2e676966" width="200"/>
-</div>
-
-<div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/andrew-j-487292196">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-</div>
